@@ -1,0 +1,30 @@
+.tabledata{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: mediumblue;
+}
+
+.tabledata td{
+    padding: 5px;
+    background-color: lightskyblue;
+    color: maroon;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    padding-right: 30px;
+    margin: 10px;
+}
+.tableHeader{
+    text-align: center;
+    background-color: maroon;
+    color: white;
+    font-size: large;
+}
+.contfooter{
+    background-color: lightskyblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

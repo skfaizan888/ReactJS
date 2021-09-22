@@ -1,0 +1,30 @@
+.Tablehead{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: mediumblue
+}
+.Tablehead td{
+    background-color: burlywood;
+    border: 1px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 30px;
+
+}
+.tableHeader{
+    text-align: center;
+    background-color: burlywood;
+    color: mediumblue;
+    font-size: large;
+    border-radius: 10px;
+}
+.cont-footer{
+    background-color: chartreuse;
+    color: brown;
+    text-align: center;
+}

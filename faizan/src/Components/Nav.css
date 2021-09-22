@@ -1,0 +1,15 @@
+.navlink a{
+   margin:  5px;
+   padding: 10px;
+   background-color: navy;
+   color: white;
+   font-size: 24px;
+   font-weight: bold;
+   border-radius: 10px;
+   text-decoration: none;
+
+}
+.navlink{
+    margin: 15px;
+    
+}
