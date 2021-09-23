@@ -21,7 +21,6 @@ export const Home = () =>{
                 </td>
             </tr>
         </table>
-        
     </div>
 
     )
