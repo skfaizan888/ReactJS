@@ -23,8 +23,9 @@
     font-size: large;
     border-radius: 10px;
 }
-.cont-footer{
-    background-color: chartreuse;
-    color: brown;
+.contfooter{
+    background-color: lightskyblue;
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
 }

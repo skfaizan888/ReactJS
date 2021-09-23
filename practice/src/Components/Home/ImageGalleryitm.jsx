@@ -10,9 +10,9 @@ export const ImageGalleryitm=()=>{
                     </td>
                     <tr>
                     <td>
-                   <b>Sharukh Khan</b>
+                        <b>Sharukh Khan</b>
                     </td>
-                    </tr>
+                </tr>
                 </tr>
             </table>
             
