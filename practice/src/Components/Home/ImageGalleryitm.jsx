@@ -1,16 +1,19 @@
-export const ImageGalleryitm=()=>{
+export const ImageGalleryitm=(props)=>{
     return(
         
-            <a href="https://en.wikipedia.org/wiki/Shah_Rukh_Khan" target="_blank">
+            <a href={props.wikiUrl} target="_blank">
             <div>
            <table>
                 <tr>
                     <td>
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg/330px-Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg" alt="Sharukh" width="150px" />
+                      <img 
+                      src={props.imgUrl}
+                       alt={props.title}
+                        width="150px" />
                     </td>
                     <tr>
                     <td>
-                        <b>Sharukh Khan</b>
+                        <b>{props.title}</b>
                     </td>
                 </tr>
                 </tr>
