@@ -1,10 +1,25 @@
+import { ImageGallaryItem } from "./ImageGallaryItem";
+import {bollywoodData} from "../../State/Reducer/bollywoodData";
 
-import { ImageGalleryitm } from "./ImageGalleryitm";
-export const ImageGallery=()=>{
-    return(
-        <div>
-        <table>
-            <tr>
+export const ImageGallary = () => {
+  console.log(bollywoodData)
+  return (
+    <table>
+      <tr>
+        {
+          bollywoodData.data.map((item) =>{
+            <td>
+              <ImageGallaryItem 
+              wikiUrl={item.wikiUrl}
+              imgUrl={item.imgUrl}
+              title={item.title}
+              />
+            </td>
+          }
+          )
+        }
+                 
+                    
                 <td>
               <ImageGalleryitm 
               wikiUrl="https://en.wikipedia.org/wiki/Narendra_Modi"
@@ -25,6 +40,6 @@ export const ImageGallery=()=>{
                 </td>
             </tr>
         </table>
-        </div>
+        
     )
 }
