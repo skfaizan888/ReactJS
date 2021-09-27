@@ -8,6 +8,7 @@ import { ComponentSeven } from "./Components/ComponentSeven";
 import { ComponentEight} from "./Components/ComponentEight";
 import { ComponentNine } from "./Components/ComponentNine";
 import { ComponentTen } from "./Components/ComponentTen";
+import { Reducer } from "./Components/MappingPratice/Reducer";
 import './App.css';
 
 function App() {
@@ -24,7 +25,10 @@ function App() {
     <ComponentEight/>
     <ComponentNine/>
     <ComponentTen/>
-     
+
+
+    <Reducer/>
+    
     </div>
   );
 }
