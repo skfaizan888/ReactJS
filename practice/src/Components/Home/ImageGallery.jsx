@@ -1,8 +1,8 @@
 import { ImageGallaryItem } from "./ImageGallaryItem";
 import {bollywoodData} from "../../State/Reducer/bollywoodData";
 
-export const ImageGallary = () => {
-  console.log(bollywoodData)
+export const ImageGallary = ( ) => {
+  console.log(bollywoodData.data); 
   return (
     <table>
       <tr>
