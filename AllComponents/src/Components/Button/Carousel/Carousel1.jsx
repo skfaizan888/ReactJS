@@ -6,7 +6,7 @@ export const Carousel1=()=>{
             <Carousel>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-50"
       src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg/330px-Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg"
       alt="Sharukh Khan Fisrt"
     />
@@ -17,7 +17,7 @@ export const Carousel1=()=>{
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
+      className="d-block w-50"
       src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Shahrukh_Khan_during_the_promotion_of_Jab_Tak_Hai_Jaan.jpg/330px-Shahrukh_Khan_during_the_promotion_of_Jab_Tak_Hai_Jaan.jpg"
       alt="Sharukh Khan Second"
     />
@@ -29,7 +29,7 @@ export const Carousel1=()=>{
   </Carousel.Item>
   <Carousel.Item>
     <img 
-      className="d-block w-100"
+      className="d-block w-50"
       src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Narendra_Modi_2021.jpg/330px-Narendra_Modi_2021.jpg"
       alt="Sharukh Khan Third"
     />
