@@ -1,9 +1,6 @@
-import React  from "react"
-
-import { Form } from "react-bootstrap"
-import { Myform2 } from "./MyForm2"
-
-export const MyForm=()=>{
+import {Form,Button} from "react-bootstrap"
+import { MyForms2 } from "./MyForms2"
+export const MyForms=()=>{
     return(
         <div>
             <Form>
@@ -22,12 +19,11 @@ export const MyForm=()=>{
   <Form.Group className="mb-3" controlId="formBasicCheckbox">
     <Form.Check type="checkbox" label="Check me out" />
   </Form.Group>
-  {/* <Button variant="primary" type="submit">
+  <Button variant="primary" type="submit">
     Submit
-  </Button> */}
+  </Button>
 </Form>
-    <Myform2/>
-</div>
-
+       <MyForms2/>
+        </div>
     )
 }
