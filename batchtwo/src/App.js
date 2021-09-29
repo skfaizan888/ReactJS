@@ -9,6 +9,8 @@ import { ComponentEight} from "./Components/ComponentEight";
 import { ComponentNine } from "./Components/ComponentNine";
 import { ComponentTen } from "./Components/ComponentTen";
 import { Reducer } from "./Components/MappingPratice/Reducer";
+import { MyCard } from "./Components/Card/MyCard";
+import { MyForm } from "./Components/Form/MyForm";
 import './App.css';
 
 function App() {
@@ -25,8 +27,8 @@ function App() {
     <ComponentEight/>
     <ComponentNine/>
     <ComponentTen/>
-
-
+    <MyForm/>
+    <MyCard/>
     <Reducer/>
     
     </div>

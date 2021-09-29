@@ -1,5 +1,5 @@
 import React from "react"
-import Carousel from 'react-bootstrap/Carousel'
+import  Carousel from 'react-bootstrap/Carousel'
 
 
 export const Reducer=()=>{
@@ -19,7 +19,7 @@ export const Reducer=()=>{
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=282c34"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Shahrukh_Khan_during_the_promotion_of_Jab_Tak_Hai_Jaan.jpg/330px-Shahrukh_Khan_during_the_promotion_of_Jab_Tak_Hai_Jaan.jpg"
       alt="Second slide"
     />
 
@@ -29,9 +29,9 @@ export const Reducer=()=>{
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img
+    <img  
       className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Shahrukh_Khan_during_the_promotion_of_Jab_Tak_Hai_Jaan.jpg/330px-Shahrukh_Khan_during_the_promotion_of_Jab_Tak_Hai_Jaan.jpg  "
       alt="Third slide"
     />
 
