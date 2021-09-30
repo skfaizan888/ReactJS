@@ -1,5 +1,6 @@
 import {ButtonGroup,Button} from "react-bootstrap"
 import { ToolsBut } from "./ToolsBut"
+import { ButtonTool } from "./ButtonTool"
 export const BasicExample=()=>{
     return(
      <div>
@@ -9,6 +10,7 @@ export const BasicExample=()=>{
   <Button variant="secondary">Right</Button>
 </ButtonGroup>
     
+    <ButtonTool/>
     <ToolsBut/>
      </div>
 

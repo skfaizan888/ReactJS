@@ -1,4 +1,6 @@
 import { Card,Button} from "react-bootstrap";
+import { KichenSing } from "./KichenSing";
+import { ImageCaps } from "./ImageCaps";
 
 export const BasicExp=()=>{
     return(
@@ -14,6 +16,9 @@ export const BasicExp=()=>{
     <Button variant="primary">Go somewhere</Button>
   </Card.Body>
 </Card>
+      <ImageCaps/>
+      <KichenSing/>
+     
         </div>
         
     )

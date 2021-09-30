@@ -1,8 +1,9 @@
-import { Button } from "react-bootstrap"
+import { Button ,Row,Col} from "react-bootstrap"
 
 export const Outline=()=>{
     return(
-        <>
+        <Row>
+            <Col>
   <Button variant="outline-primary">Primary</Button>{' '}
   <Button variant="outline-secondary">Secondary</Button>{' '}
   <Button variant="outline-success">Success</Button>{' '}
@@ -11,6 +12,7 @@ export const Outline=()=>{
   <Button variant="outline-info">Info</Button>{' '}
   <Button variant="outline-light">Light</Button>{' '}
   <Button variant="outline-dark">Dark</Button>
-</>
+  </Col>
+</Row>
     )
 }

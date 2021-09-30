@@ -1,5 +1,7 @@
 import {Button} from "react-bootstrap"
 import { Outline } from "./Outline"
+import { BlockButton } from "./BlockButton"
+import { ButtonTag } from "./ButtonTag"
 export const ButtonVarint=()=>{
     return(
       <div>
@@ -13,6 +15,8 @@ export const ButtonVarint=()=>{
         <Button variant="link">Link</Button>
         </>
         <Outline/>
+        <ButtonTag/>
+        <BlockButton/>
       </div>
     )
 }

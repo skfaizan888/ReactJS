@@ -1,4 +1,7 @@
 import { Badge } from "react-bootstrap"
+import { ContExtvial } from "./ContExtvial"
+import { Pill } from "./Pill"
+import {Profile} from "./Profile"
 
 export const BadgeFirst=()=>{
     return(
@@ -21,6 +24,10 @@ export const BadgeFirst=()=>{
   <h6>
     Example heading <Badge bg="secondary">New</Badge>
   </h6>
+   
+   <ContExtvial/>
+   <Pill/>
+  <Profile/>
 </div>
         
     )

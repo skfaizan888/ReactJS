@@ -6,6 +6,8 @@ import{Carousel1} from './Components/Button/Carousel/Carousel1'
 import { BasicExample } from './Components/Button/ButtonGroup/BasicExample';
 import {AccordinFisrt} from './Components/Button/Accordin/AccordinFisrt';
 import {BadgeFirst} from './Components/Badge/BadgeFirst'
+import { Figures } from './Components/Figures/Figures';
+
 import './App.css';
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <BasicExample/>
       <AccordinFisrt/>
       <BadgeFirst/>
+      <Figures/>
+  
     </div>
   );
 }

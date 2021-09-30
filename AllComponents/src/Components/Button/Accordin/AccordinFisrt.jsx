@@ -1,4 +1,5 @@
 import { Accordion } from "react-bootstrap"
+import { CustomToggle1 } from "./CustomToggle1"
 
 export const AccordinFisrt=()=>{
     return(
@@ -29,6 +30,8 @@ export const AccordinFisrt=()=>{
     </Accordion.Body>
   </Accordion.Item>
 </Accordion> 
+
+      <CustomToggle1/>
         </div>
 
     )

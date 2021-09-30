@@ -1,5 +1,9 @@
 import {Form,Button} from "react-bootstrap"
 import { MyForms2 } from "./MyForms2"
+import { FileInput } from "./FileInput"
+import  { Colors } from "./Colors"
+import {CheckBox} from"./CheckBox"
+import { Rang } from "./Rang"
 export const MyForms=()=>{
     return(
         <div>
@@ -24,6 +28,10 @@ export const MyForms=()=>{
   </Button>
 </Form>
        <MyForms2/>
+       <FileInput/>
+       <Colors/>
+       <CheckBox/>
+       <Rang/>
         </div>
     )
 }
