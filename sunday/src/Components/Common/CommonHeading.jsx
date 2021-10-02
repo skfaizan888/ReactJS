@@ -9,6 +9,9 @@ export const CommonHeading=()=>{
             <h1>
                 Common Heading
             </h1>
+            <h1>
+                This is Try
+            </h1>
         </div>
     )
 }
