@@ -1,15 +1,16 @@
-import { Header } from './Components/Navigation/Header';
-import { MainBody } from './Components/Body/MainBody';
-import { Footer } from './Components/Footer/Footer';
+
 import './App.css';
+import { Footerline } from './Components/Footer/Footerline';
+import { Body } from './Components/MainBody/Body';
+import { Header } from './Components/Navigation/Header';
 
 
 function App() {
   return (
-   <div style={{textAlign:"center"}}>
-    <Header/>
-    <MainBody/>
-    <Footer/>
+   <div>
+     <Header/>
+     <Body/>
+    <Footerline/>
    </div>   
 
   );
