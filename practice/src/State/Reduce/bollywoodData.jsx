@@ -1,4 +1,4 @@
-export const bollywoodData =()=>{
+export const BollywoodData =()=>{
     data :[
         {
             wikiUrl:"https://en.wikipedia.org/wiki/Salman_Khan",
@@ -6,4 +6,5 @@ export const bollywoodData =()=>{
             title:"Salman Khan",
         },
     ]
+    
 }

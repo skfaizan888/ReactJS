@@ -1,13 +1,13 @@
 import { ImageGallaryItem } from "./ImageGallaryItem";
-import {bollywoodData} from "../../State/Reducer/bollywoodData";
+import {BollywoodData} from "../../State/Reducer/bollywoodData";
 
-export const ImageGallary = ( ) => {
-  console.log(bollywoodData.data); 
+export const ImageGallery= ( ) => {
+  console.log(BollywoodData.data); 
   return (
     <table>
       <tr>
         {
-          bollywoodData.data.map((item) =>{
+          BollywoodData.data.map((item) =>{
             <td>
               <ImageGallaryItem 
               wikiUrl={item.wikiUrl}
