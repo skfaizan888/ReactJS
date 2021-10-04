@@ -1,0 +1,15 @@
+.Cont-Nav{
+    background-color: aqua;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+
+
+}
+.Cont-Nav a{
+   color: red;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}

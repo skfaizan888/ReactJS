@@ -1,6 +1,7 @@
 import { Personalinfo } from "./Home/Personalinfo";
 import { Professionalinfo } from "./Home/Professionalinfo";
 import {ImageGallery} from "./Home/ImageGallery"
+
 import "./Home.css";
 
 export const Home = () => {
@@ -24,6 +25,7 @@ export const Home = () => {
             </table>
             {/* <Personalinfo />
             <Professionalinfo /> */}
+           
         </div>
     )
 };
