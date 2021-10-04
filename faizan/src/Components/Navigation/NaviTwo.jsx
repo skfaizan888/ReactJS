@@ -1,5 +1,5 @@
-import {Navbar} from "react-Bootstrap"
-import { NavLink } from "react-router-dom"
+import {Navbar ,Nav ,NavbarBrand} from "react-Bootstrap"
+import {  NavLink } from "react-router-dom"
 
 
 export const NaviTwo=()=>{
@@ -12,7 +12,6 @@ export const NaviTwo=()=>{
       <Nav className="me-auto">
         <NavLink to="Service">Service</NavLink>
         <NavLink to="Contact">Contact</NavLink>
-        <NavLink to="Menu">Menu</NavLink>
         <NavLink to="About">About </NavLink>
       </Nav>
     </Navbar.Collapse>

@@ -20,7 +20,6 @@ const App = () => {
         <NaviTwo />
         <Switch>
          <Route path="/Service"><Service/></Route>
-         <Route path="/Menu"><Menu/></Route>
          <Route path="/Contact"><Contact/></Route>
          <Route path="/About"><About /></Route>
          <Route path="/"><React-Bootstrap/></Route>
