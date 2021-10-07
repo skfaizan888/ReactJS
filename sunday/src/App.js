@@ -1,25 +1,27 @@
 
-import { Navi } from './Components/Navigation-1/Navi';
-import { About } from './Components/Pages/About';
-import { Contact } from './Components/Pages/Contact';
+// import { Navi } from './Components/Navigation-1/Navi';
+// import { About } from './Components/Pages/About';
+// import { Contact } from './Components/Pages/Contact';
 import './App.css';
-import { Menu } from './Components/Pages/Menu';
-import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
-import {Home} from "./Components/Home/Home"
+// import { Menu } from './Components/Pages/Menu';
+// import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
+// import {Home} from "./Components/Home/Home"
 // import { Footerline } from './Components/Footer/Footerline';
 // import { Body } from './Components/MainBody/Body';
 // import { Header } from './Components/Navigation/Header';
+import {Maped} from "./Components/afroz sir/Maped"
 
 
 
 function App() {
   return (
- 
+     
     //  {/* <Header/>
     //  <Body/>
     // <Footerline/> */}
     <div>
-      <Router>
+      
+      {/* <Router>
       <Navi/>
         <Switch>
           <Route path="/Menu">
@@ -35,8 +37,10 @@ function App() {
             <Home/>
           </Route>
         </Switch>
-      </Router>
+      </Router> */}
+     <Maped/>
     </div>
+    
     
 
   )
