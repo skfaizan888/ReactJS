@@ -9,7 +9,8 @@ import './App.css';
 // import { Footerline } from './Components/Footer/Footerline';
 // import { Body } from './Components/MainBody/Body';
 // import { Header } from './Components/Navigation/Header';
-import {Maped} from "./Components/afroz sir/Maped"
+// import {Maped} from "./Components/afroz sir/Maped"
+import { Component } from './Components/Practice Home/Component';
 
 
 
@@ -38,7 +39,8 @@ function App() {
           </Route>
         </Switch>
       </Router> */}
-     <Maped/>
+     {/* <Maped/> */}
+     <Component/>
     </div>
     
     
