@@ -11,7 +11,7 @@ export const Component =()=>{
            
                 {data2.map((item)=>{
                     return(
-                        <div>
+                <div>
                 <h3>{item.name}</h3>
                 <h3>{item.age}</h3>
                 <h3>{item.Add}</h3>
