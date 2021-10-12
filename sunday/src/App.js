@@ -3,6 +3,9 @@
 // import { About } from './Components/Pages/About';
 // import { Contact } from './Components/Pages/Contact';
 import './App.css';
+import { Counter2 } from './Components/Counter/Counter2';
+import { Button2 } from './Components/Input/Button2';
+import { Input2 } from './Components/Input/Input2';
 // import { Menu } from './Components/Pages/Menu';
 // import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
 // import {Home} from "./Components/Home/Home"
@@ -20,7 +23,7 @@ function App() {
     //  {/* <Header/>
     //  <Body/>
     // <Footerline/> */}
-    <div>
+    <div className="App">
       
       {/* <Router>
       <Navi/>
@@ -40,7 +43,10 @@ function App() {
         </Switch>
       </Router> */}
      {/* <Maped/> */}
+     <Input2/>
+     <Button2/>
      <Component/>
+     <Counter2/>
     </div>
     
     
