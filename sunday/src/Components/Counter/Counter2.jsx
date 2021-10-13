@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Row } from "react-bootstrap";
 
 export const Counter2 = () => {
   const [count, setCount] = useState("");
@@ -13,9 +13,11 @@ export const Counter2 = () => {
       >
         +
       </Button>
+      <Row></Row>
       <Button variant="warning" onClick={() => setCount(count * 0)}>
         Reset
       </Button>{" "}
+      <Row></Row>
       <Button
         style={{ padding: "5px", margin: "20px" }}
         variant="danger"
