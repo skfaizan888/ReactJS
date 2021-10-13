@@ -8,17 +8,17 @@
 //     return(
 //         <div>
 //         <h1>Persona Details</h1>
-        
+
 //         {data2.map((item)=>{
-//             return(    
+//const {name,age,city}=item;
+//             return(
 //             <div>
 //             <h5>{item.name}</h5>
 //             <h5>{item.age} </h5>
 //             <h5>{item.city}</h5>
-//           </div> 
+//           </div>
 //             )
 //     })  }
 //     </div>
-//     ); 
+//     );
 // };
-
