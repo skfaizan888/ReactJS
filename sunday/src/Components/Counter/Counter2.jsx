@@ -9,9 +9,9 @@ export const Counter2 = () => {
       <Button
         style={{ padding: "5px", margin: "20px" }}
         variant="danger"
-        onClick={() => count < 10 && setCount(count + 1)}
+        onClick={() => count < 20 && setCount(count + 1)}
       >
-        +
+        <b>+</b>
       </Button>
       <Row></Row>
       <Button variant="warning" onClick={() => setCount(count * 0)}>
@@ -23,7 +23,7 @@ export const Counter2 = () => {
         variant="danger"
         onClick={() => count > 0 && setCount(count - 1)}
       >
-        -
+        <b>-</b>
       </Button>
     </div>
   );

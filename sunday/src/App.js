@@ -4,8 +4,11 @@
 // import { Contact } from './Components/Pages/Contact';
 import './App.css';
 import { Counter2 } from './Components/Counter/Counter2';
+import Counter3 from "./Components/Practice/Counter3"
+import Counterthis1 from "./Components/CounterThis/Counterthis1"
 import { Button2 } from './Components/Input/Button2';
 import { Input2 } from './Components/Input/Input2';
+import Counter4 from './Components/Counter/Counter4';
 // import { Menu } from './Components/Pages/Menu';
 // import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
 // import {Home} from "./Components/Home/Home"
@@ -19,12 +22,12 @@ import { Component } from './Components/Practice Home/Component';
 
 function App() {
   return (
-     
+
     //  {/* <Header/>
     //  <Body/>
     // <Footerline/> */}
     <div className="App">
-      
+
       {/* <Router>
       <Navi/>
         <Switch>
@@ -42,14 +45,18 @@ function App() {
           </Route>
         </Switch>
       </Router> */}
-     {/* <Maped/> */}
-     <Input2/>
-     <Button2/>
-     <Component/>
-     <Counter2/>
+      {/* <Maped/> */}
+
+      <Counter3 />
+      <Counterthis1 />
+      <Input2 />
+      <Button2 />
+      <Component />
+      <Counter2 />
+      <Counter4 />
     </div>
-    
-    
+
+
 
   )
 }
