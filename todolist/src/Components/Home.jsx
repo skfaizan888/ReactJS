@@ -11,7 +11,7 @@ export const Home = () => {
   };
   const handleDelete = (curritem) => {
     const filtered = todoitem.filter((item) => item !== curritem);
-    setTodoitem(...filtered);
+    setTodoitem([...filtered]);
   };
   return (
     <div>
@@ -20,7 +20,11 @@ export const Home = () => {
           <Addtodo handleAdd={handleAdd} />
         </Col>
         <Col>
-          <Todolist todoitem={todoitem} handleDelete={handleDelete} />
+          {todoitem.length > 0 ? (
+            <Todolist todoitem={todoitem} handleDelete={handleDelete} />
+          ) : (
+            <span>It's Empty Here</span>
+          )}
         </Col>
       </Row>
     </div>

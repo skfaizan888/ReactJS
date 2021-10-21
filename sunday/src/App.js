@@ -4,7 +4,7 @@
 // import { Contact } from './Components/Pages/Contact';
 import './App.css';
 import { Counter2 } from './Components/Counter/Counter2';
-import Counter3 from "./Components/Practice/Counter3"
+
 import Counterthis1 from "./Components/CounterThis/Counterthis1"
 import { Button2 } from './Components/Input/Button2';
 import { Input2 } from './Components/Input/Input2';
@@ -17,6 +17,7 @@ import Counter4 from './Components/Counter/Counter4';
 // import { Header } from './Components/Navigation/Header';
 // import {Maped} from "./Components/afroz sir/Maped"
 import { Component } from './Components/Practice Home/Component';
+import { Counter } from "./Components/CounterClass/CounterClass"
 
 
 
@@ -46,8 +47,7 @@ function App() {
         </Switch>
       </Router> */}
       {/* <Maped/> */}
-
-      <Counter3 />
+      <Counter />
       <Counterthis1 />
       <Input2 />
       <Button2 />

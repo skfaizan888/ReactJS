@@ -1,19 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { Form, Button, Col, Row, Card } from "react-bootstrap";
 
 export const TodoItem = ({ item, handleDelete }) => {
+  const [checkbox, setcheckbox] = useState(false);
   return (
     <div>
       <Card>
         <Row>
           <Col>
-            <Form.Check></Form.Check>
+            <Form.Check onClick={() => setcheckbox(!checkbox)}></Form.Check>
           </Col>
           <Col>
-            <Form.Label> {item} </Form.Label>
+            <Form.Label>{checkbox ? <del>{item}</del> : item}</Form.Label>
           </Col>
           <Col>
-            <Button onClick={(item) => handleDelete(item)}>Delete</Button>
+            <Button onClick={() => handleDelete(item)}>Delete</Button>
           </Col>
         </Row>
       </Card>
