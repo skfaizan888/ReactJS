@@ -1,0 +1,35 @@
+.Card-main{
+    display: inline-block;
+    
+    flex-wrap: wrap;
+    margin-left: 80px;
+    border: 1px solid white;
+    /* box-shadow: 0px 0px 5px black; */
+    /* justify-content: space-evenly; */
+}
+.Card-name{
+    width: 300px;
+    height: 350px;
+    padding: 0px 20px;
+    margin: 30px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+}
+.card-img{
+    width: 240px;
+    height: 60px;
+    margin: 40px 0px 0px ;
+}
+.card-title{
+    font-size: 21px;
+    padding:0px 0px 10px;
+    color: #141414;
+    text-align: center;
+}
+#card-para{
+    font-size: 16px;
+    color: #7B8697;
+    text-align: center;
+    width: 220px;
+}

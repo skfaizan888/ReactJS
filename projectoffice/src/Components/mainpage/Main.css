@@ -1,0 +1,32 @@
+.main-img img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 600px; */
+    opacity: 10;
+    height: 510px;
+    width: 1350px;
+}
+.title {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    
+}
+.title h1{
+    font-size: 46px;
+}
+.title p{
+    font-size: 18px;
+    margin: 20px 0px;
+}
+.title button{
+    font-size: 16px;
+    padding: 7.5px 18.5px;
+    background: #ff7700;
+    color: #fff;
+    border-radius:2px;
+    border: #ff7700;
+}

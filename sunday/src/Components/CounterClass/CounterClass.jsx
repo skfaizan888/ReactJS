@@ -24,27 +24,27 @@
 //   }
 // }
 
+// import React, { Component } from "react";
 
-import React,{Component} from "react";
-
-export class CounterClass extends Component {
-  constructor(){
-    super()
-    this.state={count :0};
-    
-
-    handleIncrement=()=>{
-      this.setCount ((anyName)=> ({this.anyName.count +1}))
-    }
-  }
-  render(){
-    return(
-      <div>
-       <h3>Counte : {this.count}</h3>
-       <button>Increment</button>
-       <button>Decrement</button>
-
-      </div>
-    )
-  }
-} 
+// export class Counter extends Component {
+//   constructor() {
+//     super();
+//     this.state = { count: 0 };
+//   }
+//   UpdateCount = () => {
+//     this.setState({
+//       count: this.state.count + 1,
+//     });
+//   };
+//   render() {
+//     return (
+//       <div>
+//         <h2>Count : {this.state.count}</h2>
+//         <button>
+//           onClick=
+//           {() => this.UpdateCount()}
+//         </button>
+//       </div>
+//     );
+//   }
+// }

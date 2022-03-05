@@ -1,1 +1,0 @@
-export const getAllEmp = (state) => state.EmpReducer
