@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import {
   Grid,
@@ -12,6 +13,11 @@ import {
 
 export const Dashboard = () => {
   const [patdata, setPatdata] = useState([]);
+  const handleDelete = async (email) => {
+    const urlDelete = `https://k6j938wg66.execute-api.us-east-1.amazonaws.com/v1/delete?param1=${email}`;
+    await axios.get(urlDelete);
+    getData();
+  };
   const getData = async () => {
     const result = await axios.get(
       "https://j5ej5u32gg.execute-api.us-east-1.amazonaws.com/v1/fetch"
@@ -26,9 +32,11 @@ export const Dashboard = () => {
     <React.Fragment>
       <Grid container>
         <Grid item xs={12}>
-          <Button className="btnadd" variant="text">
-            + Add Patient
-          </Button>
+          <Link to="/add">
+            <Button className="btnadd" variant="text">
+              + Add Patient
+            </Button>
+          </Link>
         </Grid>
         <Grid item>
           <Table>
@@ -57,12 +65,19 @@ export const Dashboard = () => {
                   <TableCell>{item.city}</TableCell>
                   <TableCell>{item.pincode}</TableCell>
                   <TableCell>
-                    <Button className="btn" variant="contained">
-                      Edit
-                    </Button>
+                    <Link to="/edit">
+                      <Button className="btn" variant="contained">
+                        Edit
+                      </Button>
+                    </Link>
                   </TableCell>
                   <TableCell>
-                    <Button className="btn" color="error" variant="contained">
+                    <Button
+                      className="btn"
+                      color="error"
+                      variant="contained"
+                      onClick={() => handleDelete(item.email)}
+                    >
                       Delete
                     </Button>
                   </TableCell>
