@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import {
   Grid,
   Table,
@@ -10,11 +11,24 @@ import {
 } from "@mui/material";
 
 export const Dashboard = () => {
+  const [patdata, setPatdata] = useState([]);
+  const getData = async () => {
+    const result = await axios.get(
+      "https://j5ej5u32gg.execute-api.us-east-1.amazonaws.com/v1/fetch"
+    );
+    console.log(result.data.data);
+    setPatdata(result.data.data);
+  };
+  useEffect(() => {
+    getData();
+  }, []);
   return (
     <React.Fragment>
       <Grid container>
         <Grid item xs={12}>
-          +Add
+          <Button className="btnadd" variant="text">
+            + Add Patient
+          </Button>
         </Grid>
         <Grid item>
           <Table>
@@ -33,25 +47,27 @@ export const Dashboard = () => {
               </TableRow>
             </TableHead>
             <TableBody>
-              <TableRow>
-                <TableCell>1</TableCell>
-                <TableCell>Akshay</TableCell>
-                <TableCell>Patil</TableCell>
-                <TableCell>akshay@gmail.com</TableCell>
-                <TableCell>Goa</TableCell>
-                <TableCell>Panjim</TableCell>
-                <TableCell>45310</TableCell>
-                <TableCell>
-                  <Button className="btn" variant="contained">
-                    Edit
-                  </Button>
-                </TableCell>
-                <TableCell>
-                  <Button className="btn" color="error" variant="contained">
-                    Delete
-                  </Button>
-                </TableCell>
-              </TableRow>
+              {patdata.map((item, index) => (
+                <TableRow key={index}>
+                  <TableCell>{index + 1}</TableCell>
+                  <TableCell>{item.first_name}</TableCell>
+                  <TableCell>{item.last_name}</TableCell>
+                  <TableCell>{item.email}</TableCell>
+                  <TableCell>{item.states}</TableCell>
+                  <TableCell>{item.city}</TableCell>
+                  <TableCell>{item.pincode}</TableCell>
+                  <TableCell>
+                    <Button className="btn" variant="contained">
+                      Edit
+                    </Button>
+                  </TableCell>
+                  <TableCell>
+                    <Button className="btn" color="error" variant="contained">
+                      Delete
+                    </Button>
+                  </TableCell>
+                </TableRow>
+              ))}
             </TableBody>
           </Table>
         </Grid>

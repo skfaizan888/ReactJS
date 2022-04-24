@@ -1,12 +1,14 @@
 import React from "react";
 import { Dashboard } from "./components/Dashboard";
+import { AddPatient } from "./components/AddPatient";
 import "./components/common.css";
 
 function App() {
   return (
-    <React.Fragment>
+    <div className="main">
       <Dashboard />
-    </React.Fragment>
+      <AddPatient />
+    </div>
   );
 }
 
